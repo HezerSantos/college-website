@@ -1,0 +1,249 @@
+*{
+	font-family: 'Overpass', sans-serif;
+	font-family: 'Bebas Neue', cursive;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	margin: 0;
+}
+
+header{
+	background-color: #1C488A;
+	position: absolute;
+	width: 100%;
+	top: 0%;
+	margin: 0;
+	padding: 20px 0;
+}
+
+a{
+	text-decoration: none;
+}
+.container1{
+	display: fle;
+}
+.container2{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+
+}
+.header{
+	display:flex;
+	font-family: 'Overpass', sans-serif;
+	color: white;
+	flex-direction: row;
+	padding-bottom: 20px;
+	font-weight: bold;
+}
+
+ul li{
+	font-family: 'Overpass', sans-serif;
+	color: white;
+	list-style-type: none;
+	position: fixed;
+	font-weight: bold;
+
+}
+.li1{
+	left: 15%;
+	position: absolute;
+
+}
+.li2{
+	left: 35%;
+	position: absolute;
+}
+.li3{
+
+	right: 35%;
+	position: absolute;
+}
+.li4{
+
+	right: 15%;
+	position: absolute;
+}
+.headerimg{
+	width: 100%;
+	height: 945px;
+	display: block;
+}
+.headersquare{
+	width: 100%;
+	height: 856px;
+	background-color: #3A5B8C;
+	position: absolute;
+	top: 12%;
+	opacity: 33%;
+}
+#headertxt{
+	text-align: center;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 100px;
+	color: white;
+	padding-bottom:;
+	color: white;
+	position: absolute;
+	margin-left: 525px;
+	top: 100px;
+}
+#headertxt2{
+	font-size: 55px;
+	opacity: 100%;
+}
+
+.bordersep{
+	background-color: #1C488A;
+	position: absolute;
+	width: 100%;
+	padding-bottom: 50px;
+	margin: 0;
+}
+
+.CampusExplore{
+	margin: 0;
+}
+
+.exploreheader{
+	margin-left: 240px;
+}
+.exploreimg1{
+	width: 399.75px;
+	margin-left: 10px;
+	display: flex;
+	flex: ;
+}
+.exploreimg2{
+	width: 340.33px;
+	height: 227px;
+	flex: ;
+}
+.exploreimg3{
+	width: 340.32px;
+	height: 267px;
+
+}
+.container3{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.section3{
+	padding-top: 50px;
+	justify-content: space-around;
+}
+.generalsquare{
+	width: 100%;
+	height: 500px;
+	background-color: #1C488A;
+	margin-top: 50px;
+}
+#generalheader{
+	color: white;
+	margin-left: 233px;
+	padding-top: 20px ;
+	display: block;
+}
+.generaltxt{
+	font-family: 'Overpass', sans-serif;
+	font-size: 37px;
+	margin-left: 233px;
+	color: white;
+}
+.bordersep2{
+	width: 100%;
+	height: 68px;
+	background-color: #0F2B55;
+}
+.transition{
+	filter: brightness(50%);
+	idth: 100%;
+	display: block;
+	left: 50%;
+	margin-left: 245px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.container4{
+	display: flex;
+	flex-direction: row;
+}
+.section4{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+hr{
+	border: 2px solid black;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.sect4txt1{
+	flex-direction: column;
+}
+.sect4txt2{
+	flex-direction: column;
+}
+.sect4h1{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 35px;
+}
+.sect4txt{
+	font-family: 'Overpass', sans-serif;
+	font-size: 35px;
+}
+.overviewimg{
+	width: 100%;
+	position: absolute;
+	oacity: 54%;
+	z-index: -1;
+}
+.overviewsquare{
+	background-color: #357A9B;
+	opacity: 54%;
+	width: 100%;
+	height: 860px;
+	z-index: 1;
+	position: absolute;
+}
+.container5{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-bottom: 80px;
+}
+.jobs{
+	font-family: 'Overpass', sans-serif;
+	font-weight: bold;
+	border-width: 5px;
+	border-style: solid;
+	border-color: white;
+	color: white;
+	font-size: 30px;
+	text-align: left;
+	margin-top: 125px;
+	padding: 100px;
+	padding-left: 50px;
+	z-index: 2;
+}
+#jobs1{
+	padding-right: 150px;
+	z-index: 2;
+}
+.square1{
+	width: 100%;
+	height: 32px;
+	background-color: #357A9B;
+}
+.square2{
+	width: 100%;
+	height: 86px;
+	background-color: #1C488A;
+}
